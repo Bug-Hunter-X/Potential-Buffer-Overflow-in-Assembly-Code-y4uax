@@ -1,0 +1,1 @@
+This repository contains an example of a potential buffer overflow bug in assembly code and its solution. The bug arises from the use of the `mov eax, [ebx+4*ecx]` instruction, which can cause a buffer overflow if the value of `ecx` is not properly validated. The solution demonstrates how to prevent the overflow by adding bounds checking before the memory access.
